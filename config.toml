@@ -38,9 +38,9 @@ read-timeout = "5s"
   # udp_enabled = true # enable udp interface on the same port as the tcp interface
 
   [input_plugins.udp]
-  enabled = false
-  # port = 4444
-  # database = ""
+  enabled = true
+  port = 4444
+  database = "monitoring"
 
 # Raft configuration
 [raft]
